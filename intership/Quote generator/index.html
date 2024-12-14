@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quote Generator</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="js/script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.6.0/uicons-thin-rounded/css/uicons-thin-rounded.css'>
+</head>
+<body>
+   <div class="container">
+    <h1>Quote Generator</h1>
+    <div id="quote" class="quote-box">Click below to generate a quote!</div>
+    <div class="icons">
+        <i id="likeIcon" class="fi fi-tr-square-heart"></i>
+        <i id="shareIcon" class="fas fa-share-alt"></i>
+        <i id="copyIcon" class="fas fa-copy"></i>
+    </div><br>
+    <button id="generate" onclick="generateQuotes()">Generate Quote</button>
+    <br><br>
+	<button id="viewLikedQuotes">View Liked Quotes</button>
+</div>
+<!--to see the likes quote or remove that quote-->
+<div id="likedQuotesSection" class="liked-quotes" style="display: none;">
+    <h2>Liked Quotes</h2>
+    <button id="closeLikedQuotes">Close</button>
+    <ul id="likedQuotesList"></ul>
+</div>
+
+
+
+</body>
+</html>
+
+
+
+

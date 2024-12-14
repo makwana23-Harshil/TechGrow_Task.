@@ -1,0 +1,164 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Body Style */
+body {
+    background-color:#F0ECEC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container */
+.container {
+    text-align: center;
+	background-color:#FFDC20;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.9);
+    width: 90%;
+    max-width: 400px;
+}
+
+.container h1{color:#2E0933;
+	font-family:Palatino Linotype;
+	font-size:30px;
+	text-transform:capitalize;
+}
+/* Quote Box */
+.quote-box {
+    font-size: 18px;
+    font-style: italic;
+	font-family:Palatino Linotype;
+    color: #4A1809;
+    margin: 20px 0;
+    padding: 10px;
+    border: 2px dashed #0A421D;
+    border-radius: 10px;
+}
+/* icons*/
+.icons{
+	margin-top:10px;
+	display:flex;
+	justify-content:center;
+	gap:15px;
+}
+.icon i{
+	font-size:25px;
+	cursor:pointer;
+	transition:color 0.3s;
+}
+#likeIcon{font-size:25px;
+	color: #731111;
+}
+#likeIcon:hover{background-color:red;
+}
+#shareIcon{font-size:25px;
+	color: #731111;
+}
+#shareIcon:hover{
+	color:#3455d1;
+}
+#copyIcon{font-size:25px;
+	color: #731111;
+}
+#copyIcon:hover{
+	color:#1C6108;
+}
+
+/* Button */
+button {
+    background-color: #FBFFDB;
+    color: #0A421D;
+     border: 1px solid #0A421D;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;font-family:Palatino Linotype;
+    transition: background-color 0.3s;
+	}
+
+button:hover {
+    background-color: #D6BAD0;;
+	box-shadow:0 4px 6px rgba(0, 0, 0, 0.9);
+}
+/* like section */
+.liked-quotes {margin:10px;
+    margin-top: 20px;
+    padding: 15px;
+    border-top: 2px solid #ccc;
+    background-color:#0D8E9C;
+	border-radius:20px;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.9);
+}
+
+.liked-quotes h2 {
+	color:#2E0933;
+	font-family:Palatino Linotype;
+	font-size:30px;
+	text-transform:capitalize;
+	text-transform:capitalize;
+    margin-bottom: 10px;
+	font-weight:bold;
+}
+
+.liked-quotes ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.liked-quotes li {text-transform:capitalize;
+	font-family:Palatino Linotype;
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+    font-size: 18px;
+	border: 2px dashed #0A421D;
+	border-radius:10px;
+    font-style: italic;
+    color: #EDEDED;
+}
+
+/*close the likes quote*/
+#closeLikedQuotes {
+    display: block;
+    margin: 10px auto;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+	background-color: #0A421D;
+    color:#FBFFDB;
+     border: 1px solid #FBFFDB;
+}
+
+#closeLikedQuotes:hover {
+    background-color: #d32f2f;
+}
+
+/*footer*/
+.footer .copy{
+	text-align:center;width:100%
+	padding:1rem 0;background-color:black;
+}
+.footer .copy p{
+	font-weight:bold;color:white;
+	line-height:1.5rem;
+}
+.hm{font-family:Script MT;
+	font-size:20px;
+	line-height:1rem;
+	font-weight:400;
+	line-height:2rem;
+	color:#CC8121;	
+}
+.docs{text-align:center;font-weight:300;
+	font-size:20px;
+	letter-spacing:2px;
+	color:#A84747;
+	line-height:1rem;
+}
